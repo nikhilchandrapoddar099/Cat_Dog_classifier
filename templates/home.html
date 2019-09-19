@@ -1,0 +1,216 @@
+<html>
+     <head>
+	 <link href="https://fonts.googleapis.com/css?family=Kranky" rel="stylesheet" type="text/css">
+	  <link href="https://fonts.googleapis.com/css?family=Indie Flower" rel="stylesheet" type="text/css">
+	  	  <link href="https://fonts.googleapis.com/css?family=Patrick Hand" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+           <style>
+		   #background{
+		        background:url('https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+				background-size:cover;
+				 background-attachment:fixed;
+		   }
+
+		   #headline{
+		        font-family:Kranky;
+				font-size:140px;
+				margin:0px;
+				color:white;
+		   }
+		   .subhead{
+		          font-family:Kranky;
+				font-size:70px;
+				margin:0px;
+				color:white;
+		   }
+		   .subhead1{
+		          font-family:Indie Flower;
+				font-size:60px;
+				margin:0px;
+				color:white;
+		   }
+     .card {
+              height:500px;
+              box-shadow: 8px 8px 8px 8px rgba(0.6,0.6,0.6,0.3);
+              transition: 0.3s;
+              width: 55%;
+              opacity:0.8px;
+            }
+
+     .card:hover {
+                 box-shadow: 14px 14px 14px 14px rgba(241, 252, 213, 0.9);
+               }
+
+      body {font-family: Arial, Helvetica, sans-serif;}
+        *{box-sizing: border-box;}
+
+        .input-container {
+                  display: -ms-flexbox; /* IE10 */
+                  display: flex;
+                   width: 80%;
+                  margin-bottom: 25px;
+                  }
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 60px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+
+
+			a{
+			  color:black;
+			}
+			#bigbox>a>.box:hover{
+			     background-color:red;
+                  width:150px;
+				   height:300px;
+                    margin:50px 35px 50px 35px;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+               border-radius:30%;
+               opacity:1;
+
+			}
+			 h5{
+			     font-family:Patrick Hand;
+				 font-size:30px;
+				 margin:15px;
+			  }
+			@media screen and (max-width:980px)
+			{
+
+			   #background{
+	            background:url('https://i.pinimg.com/originals/61/02/e0/6102e01714822ddf095091295672d8c3.png');
+			   background-size:cover;
+			   background-attachment:fixed;
+			   }
+
+			   .input-container {
+                  display: -ms-flexbox; /* IE10 */
+                  display: flex;
+                   width: 90%;
+                  margin-bottom: 25px;
+                  }
+
+
+
+			  h5{
+			  font-size:25px;
+			  }
+			  .card {
+              height:500px;
+              box-shadow: 8px 8px 8px 8px rgba(0.6,0.6,0.6,0.3);
+              transition: 0.3s;
+              width: 75%;
+              opacity:0.8px;
+            }
+
+
+
+
+
+			}
+           </style>
+</head>
+      <body id="background">
+
+	       <center>
+		   <h1 id="headline">
+		    Dog_?_Cat
+		   </h1>
+
+		<h4 class="subhead">
+		    Classifier
+		</h4>
+               <br>
+			<br>
+               <br>
+			<br>
+			<br>
+			<br>
+         <div class="card">
+
+         <br><form action = "{{ url_for('fun1')}}"  method = "POST">
+               <h2 style="font-size:32px;font-family:Roboto;color:white;">select your picture</h2><br>
+             <input type="file" name="message" value="">
+<br><br>
+<input type="submit" name="" value="Submit">
+
+
+
+
+
+
+
+
+           </form>
+
+
+			</div>
+               <br>
+			<br>
+			<br>
+			<br>
+			<br>
+					<br>
+					<br>
+               	<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+					<br>
+					<br>
+               	<br>
+			<br>
+			<br>
+			<br>
+               <br>
+			 <h6 class="subhead1">
+			       Every great story on the planet happened when someone decided not to give up, but kept going no matter what.<br>
+					(:-team technical
+
+			 </h6>
+
+			   </center>
+
+
+      </body>
+</html>

@@ -1,0 +1,176 @@
+
+<html>
+<head></head>
+   <body style="padding:0px;margin:0px;">
+     <html>
+     <head>
+	 <link href="https://fonts.googleapis.com/css?family=Kranky" rel="stylesheet" type="text/css">
+	  <link href="https://fonts.googleapis.com/css?family=Indie Flower" rel="stylesheet" type="text/css">
+	  	  <link href="https://fonts.googleapis.com/css?family=Patrick Hand" rel="stylesheet" type="text/css">
+           <style>
+		   #background{
+		        background:url('https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+				background-size:cover;
+				 background-attachment:fixed;
+		   }
+#bigbox{
+			       background-color:purple;
+				   width:780px;
+
+				    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+					opacity:.7;
+
+			}
+			.box{
+			       width:750px;
+
+				   background-color:pink;
+				   border-radius:30%;
+
+				   margin:25px 5px 25px 5px;
+				   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+            }
+
+		   #headline{
+		        font-family:Kranky;
+				font-size:140px;
+				margin:0px;
+				color:white;
+		   }
+		   .subhead{
+		          font-family:Kranky;
+				font-size:70px;
+				margin:0px;
+				color:white;
+		   }
+		   .subhead1{
+		          font-family:Indie Flower;
+				font-size:60px;
+				margin:0px;
+				color:white;
+		   }
+
+
+			h1{
+			font-family:Indie Flower;
+				 font-size:30px;
+				 color:white;
+			}
+
+			 h2{
+			     font-family:Patrick Hand;
+				 font-size:30px;
+
+			  }
+			  h3{
+			      	font-family:Indie Flower;
+				 font-size:25px;
+				 margin:0px;
+			  }
+			  a{
+			  color:black;
+			  text-decoration:none;
+			  }
+			@media screen and (max-width:980px)
+			{
+			   #background{
+			     background:url('https://media.giphy.com/media/nsHjVgedX9KoM/giphy.gif');
+			   background-size:980px;
+			   background-attachment:fixed;
+	#bigbox{
+			  width:650px;
+
+			  }
+			 .box{
+			        width:620px;
+
+				   background-color:pink
+              }
+
+
+
+			   }
+
+
+
+
+
+			}
+           </style>
+</head>
+      <body id="background">
+
+	       <center>
+		   <h1 id="headline">
+		    Dog_?_Cat
+		   </h1>
+
+		<h4 class="subhead">
+		    Welcome to you {{name}}
+		</h4>
+
+
+<center>
+   <div id="bigbox" style="margin-top:200px;">
+
+
+		   <div class="box" style="background-color:purple;">
+
+		   <h1>According to series</h1>
+
+		   </div>
+
+		   <div class="box" style="">
+		   <details>
+               <summary><h2>view</h2></summary>
+<form action = "{{ url_for('student')}}" method = "POST">
+
+         <br>
+
+     <div style="padding:0px;margin:0px;font-size:35px;background-color:pink">
+        <table border = 1>
+         {% for key, value in result.items() %}
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+         {% endfor %}
+        </table>
+
+
+         </div>
+         </form>
+            </details>
+
+		   </div>
+
+     </center>
+
+
+
+
+
+
+
+			<br>
+			<br>
+
+					<br>
+					<br>
+			 <h6 class="subhead1">
+			       Hard work beats talent when talent doesn’t work hard.<br>
+					(:-team technical
+
+			 </h6>
+
+			   </center>
+
+
+      </body>
+</html>
+   </body>
+</html>
+
+
+
